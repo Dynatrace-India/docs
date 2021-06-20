@@ -9,9 +9,10 @@ permalink: /
 # Get Started with Dynatrace Transform
 Feel free to navigate through and search it you have any queries. We are here to stay for long and make sure, your applications run smoothly in any gicen circumstances. If you are a team member of our team, this is a site for you to understand what you can do with the immense resources that are available in here. Site will be updated with new documentations regularly so please don't forget to check out. 
 
-<button class="btn js-toggle-dark-mode">Switch to dark mode</button>
+<button class="btn js-toggle-dark-mode">Switch display mode</button>
 
 <script>
+jtd.setTheme('dark');
 const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
 
 jtd.addEvent(toggleDarkMode, 'click', function(){

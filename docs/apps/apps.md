@@ -5,7 +5,7 @@ nav_order: 3
 permalink: /apps
 has_children: true
 ---
-<button class="btn js-toggle-dark-mode">Switch Display Mode</button>
+<button class="btn js-toggle-dark-mode">Switch display mode</button>
 
 <script>
 jtd.setTheme('dark');
