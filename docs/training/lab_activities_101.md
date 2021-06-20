@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Creating Training Lab
+title: Lab Activities 101
 nav_order: 2
 parent: Monitor with Dynatrace
 permalink: /training/lab_activities
