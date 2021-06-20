@@ -5,13 +5,26 @@ nav_order: 2
 parent: Monitor with Dynatrace
 permalink: /training/lab_activities
 ---
+<button class="btn js-toggle-dark-mode">Switch to dark mode</button>
 
+<script>
+const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
+
+jtd.addEvent(toggleDarkMode, 'click', function(){
+  if (jtd.getTheme() === 'dark') {
+    jtd.setTheme('light');
+    toggleDarkMode.textContent = 'Switch to dark mode';
+  } else {
+    jtd.setTheme('dark');
+    toggleDarkMode.textContent = 'Return to the light side';
+  }
+});
+</script>
 # Dynatrace Basics - Lab Activities 101
 {: .no_toc }
 <!-- ------------------------ -->
 ## Getting Started
 {: .no_toc }
-![dynatrace-logo](../../assets/basics_101/logo.png)
 
 Hello, 👋 Welcome to Dynatrace training. We know it has been a long journey for you to get to here. It is all like, getting education atleast for 15 years and jumping into job and finding your ways to stick to one domain. We appreciate the effort and we respect you immensely. Thank you for taking this training. From Dynatrace India, we wish yuo all the best and keep learning. We are here to help you anytime. If you have questions or if you need any help, please raise an issue in our public GitHub repository. We will addres it for you as soon as we can. 
 

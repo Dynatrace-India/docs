@@ -6,7 +6,21 @@ parent: Single URL Plugin
 grand_parent: Applications
 permalink: /apps/single_url_plugin/v2
 ---
+<button class="btn js-toggle-dark-mode">Switch to dark mode</button>
 
+<script>
+const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
+
+jtd.addEvent(toggleDarkMode, 'click', function(){
+  if (jtd.getTheme() === 'dark') {
+    jtd.setTheme('light');
+    toggleDarkMode.textContent = 'Switch to dark mode';
+  } else {
+    jtd.setTheme('dark');
+    toggleDarkMode.textContent = 'Return to the light side';
+  }
+});
+</script>
 # Single URL Monitoring v2.0
 {: .no_toc }
 As we all know that the version 1.0 was a good hit and certainly it had flaws of its own. To improve and build a better version this time, we will be working on making this the best product release yet. With 2.0 you can feel safe, sit back and relax because, we will be adding more security features like credential vault and automated AI integration with this. One good thing about this is, you will get events alerting when there is a password expiry or your site is due for maintenance. (Email Alerts will be triggered.) 
