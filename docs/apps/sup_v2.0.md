@@ -41,6 +41,7 @@ As we all know that the version 1.0 was a good hit and certainly it had flaws of
 This is one important update that we want to announce in this new update where instead of using Custom devices in Dynatrace we will be using third-party synthetic monitoring and will be ingesting data points in the form of external synthetic APis.
 
 #### Benefits
+{: .no_toc .text-delta }
 Main benefit of this update will be, you will get dedicated profiling and the monitor mertics will go to baselining cube and alerts you rteceive will be depending on automatic baselining and performance thresholds. This si just a top of the iceberg. There are loads of new enhancements will be there in this which includes below benefits, 
 - Dashboard
   - Honey Comb Dashboard Tile
@@ -52,15 +53,16 @@ Main benefit of this update will be, you will get dedicated profiling and the mo
 - User Interface change
   - Data that is sent through APIs will be taken for analysis and it will give you graph inside the monitor
   - A new UI is adopted which is different from tradition custom device UI.
-    ![](assets/docs_images/1.png)
+    ![](../../assets/docs_images/1.png)
   - Analysis of each run can be made step by step. (Similar to Browser monitor)
-    ![](assets/docs_images/2.png)
+    ![](../../assets/docs_images/2.png)
   - Location wise analysis is possible
 
 ### 2. Security Measures
 In 1.0 we were using excel sheet to store passwords and other selector information that it should send to Dynatrace and then our python library was featching those details and then data is pushed through functions. It was somehow making updation of new URLs and other content difficult along with that there are chances for those passwords to be compromised. Hence, we came up with a plan to use credential vault that Dynatrace provides.
 
 #### Benefits
+{: .no_toc .text-delta }
 - Credential Vault is used 
 - Suggestions to use strong password before storing password in Dynatrace vault
 - Other data like, CSS selectors, app details and meta data of each monitor will be stored in the centralised location that to in JSON format instead of excel.
@@ -69,6 +71,7 @@ In 1.0 we were using excel sheet to store passwords and other selector informati
 Development changes are very extensive in 2.0. It uses the same foundation of 1.0 but in improved format with enormous efficiency. In 1.0 we are using sane resources from each VMs to schedule, run and report to Dynatrace but in 2.0 execution will be maintained by certral engine where it will be responsible for all other executions that happen in each location.
 
 #### Benefits
+{: .no_toc .text-delta }
 - Resource consumption in every VM will be considerably less (Comparision data will be provided as we go through developemnt process).
 - Central main engine that is responsible for running tests from each VMs.
 - UI will be provided to add/remove URLs from the monitor.
@@ -79,6 +82,7 @@ Development changes are very extensive in 2.0. It uses the same foundation of 1.
 You will be alerted to your email along with an event will be created in Dynatrace then the execution will be stopped until the password is changed and you manually resume the execution in the portal. 
 
 #### Benefits
+{: .no_toc .text-delta }
 - An Info event will be created in Dynatrace
 - Execution will be stopped and for reporting the availablity, this time will not be considered.
 - Email will be sent upon expiry
@@ -87,6 +91,7 @@ You will be alerted to your email along with an event will be created in Dynatra
 Since thuird-party synthetic will move to Dynatrace Davis cube to consider alerting and root cause analysis, static alerts will always be removed and instead automated baselines alerts will be set and reflected.
 
 #### Benefits
+{: .no_toc .text-delta }
 - Dynatrace Davis Alerting 
 - Automated Baselines
 
