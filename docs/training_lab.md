@@ -4,21 +4,9 @@ title: Training Labs
 nav_order: 2
 ---
 
-# Configuration
+# How to set-up training labs
 {: .no_toc }
 
-Just the Docs has some specific configuration parameters that can be defined in your Jekyll site's _config.yml file.
-{: .fs-6 .fw-300 }
-
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
----
-
-# How to set-up training labs
 Last modified: **June 6th, 2021**
 
 **Note:** This documentation is for Dynatrace India ACE Services team. Please don't read if you are a non-dynatrace person. This document shows how to setup lab in Azure DevTestLabs.
@@ -28,6 +16,14 @@ In this document you can find how to set-up labs for training and also it classi
 2. Power User Training
 
 Please check the contents for navigating through the document. It contains several sections and step by step guide to create lab resources for training purposes. For creating labs, using Azure or GCP is recommended.
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
 
 ## Pre-requisites
 1. Access to Azure tenant of Dynatrace (At least one subscription access is required)
