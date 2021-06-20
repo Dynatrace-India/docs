@@ -2,8 +2,8 @@
 layout: default
 title: UI Components
 nav_order: 3
-parent: apps
-has_children: true
+parent: single_url_plugin
+grand_parent: apps
 permalink: /apps/single_url_plugin/v2
 ---
 
