@@ -9,6 +9,11 @@ permalink: /apps/single_url_plugin/v2
 <button class="btn js-toggle-dark-mode">Switch to dark mode</button>
 
 <script>
+const theme = localStorage.getItem('theme');
+	if (theme === "dark") {
+		document.documentElement.setAttribute('data-theme', 'dark');
+	}
+
 const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
 
 jtd.addEvent(toggleDarkMode, 'click', function(){

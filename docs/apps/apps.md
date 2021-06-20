@@ -5,9 +5,10 @@ nav_order: 3
 permalink: /apps
 has_children: true
 ---
-<button class="btn js-toggle-dark-mode">Switch to dark mode</button>
+<button class="btn js-toggle-dark-mode">Switch Display Mode</button>
 
 <script>
+jtd.setTheme('dark');
 const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
 
 jtd.addEvent(toggleDarkMode, 'click', function(){

@@ -235,7 +235,6 @@ Positive
 
 <!-- ------------------------ -->
 ## Activity: Define Conversion Goals
-Duration: 5
 
 ### Defining goals
 {: .no_toc }
