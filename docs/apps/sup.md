@@ -23,7 +23,7 @@ jtd.addEvent(toggleDarkMode, 'click', function(){
 </script>
 
 # Getting Started with Single URL Plugin
-{: .no_toc .text-delta }
+{: .no_toc }
 Please visit Single URL Plugin 2.0 Changes to see what's new in [2.0 version of the plugin](https://dt-transform.com/docs/apps/single_url_plugin/v2). 
 
 ## Table of contents
@@ -43,17 +43,17 @@ As a part of an update with v2.0, screenshots will be captured of each step and 
 Here is the list of required tools, environment, & libraries that are required for this plugin.
 
 ### Environment
-{: .no_toc .text-delta }
+{: .no_toc }
 1. A virtual machine or physical machine with below configuration.
     
     <details>
       <summary>Machine Configuration</summary>
   
-      **Configuration**
-      - Windows Server 2016/2019 or Windows 7/8.1/10
-      - 4 vCPUs
-      - 8 GB RAM
-      - Minimum 100 GB disk space in OS Partition
+      <ul>
+      <li>Windows Server 2016/2019 or Windows 7/8.1/10</li>
+      <li>4 vCPUs</li>
+      <li>8 GB RAM</li>
+      <li>Minimum 100 GB disk space in OS Partition</li></ul>
     </details>
 
 2. One server should be dedicated per location if you are trying to use multiple location execution. 
@@ -63,15 +63,15 @@ Here is the list of required tools, environment, & libraries that are required f
     <details>
       <summary>Control Center Configuration</summary>
   
-      **Configuration**
-      - Windows Server 2016/2019 or Windows 7/8.1/10
-      - 8 vCPUs
-      - 16 GB RAM
-      - Minimum 100 GB diskspace in OS Partition
+      <ul>
+      <li>Windows Server 2016/2019 or Windows 7/8.1/10</li>
+      <li>8 vCPUs</li>
+      <li>16 GB RAM</li>
+      <li>Minimum 100 GB diskspace in OS Partition</li></ul>
     </details>
 
 ### Tools
-{: .no_toc .text-delta }
+{: .no_toc }
 1. **Version Control System -** VCS is a tool that enables developers to track the development activities without losing any of the previous code. In this case, we can use *GitHub* or *Azure DevOps* as a part of software development and delivery.
 2. **Deployment Agent -** Software responsible for deployment and maintaining the software in all the machines where the plugin is installed. This includes *Git* or *Azure DevOps Agent*. 
 3. **Chromium/Edge Driver -** Used to simulate real user test scenarios.
@@ -108,7 +108,7 @@ Single URL Plugin uses different technologies to get things done. Below are the 
 The above flow diagram gives you the overall working of Single URL Plugin v2.0. It works in 7 steps to complete its execution with all other failover runs are taken care of. 
 
 ### Steps
-{: .no_toc .text-delta }
+{: .no_toc }
 1. To start with, the user will access the given site where maintenance of the plugin can happen. Actions are updated in the respective NoSQL DB (Azure Cosmos DB/Firebase/Local Storage). These are stored as JSON data. Users can perform these actions, 
     - Add URLs and their properties
     - Modify those URLs
