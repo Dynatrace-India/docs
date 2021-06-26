@@ -23,7 +23,8 @@ jtd.addEvent(toggleDarkMode, 'click', function(){
 </script>
 
 # Getting Started with Single URL Plugin
-Please visit Single URL Plugin 2.0 Changes to see what's new in 2.0 version of the plugin. 
+{: .no_toc .text-delta }
+Please visit Single URL Plugin 2.0 Changes to see what's new in [2.0 version of the plugin](https://dt-transform.com/docs/apps/single_url_plugin/v2). 
 
 ## Table of contents
 {: .no_toc .text-delta }
@@ -44,24 +45,25 @@ Here is the list of required tools, environment, & libraries that are required f
 ### Environment
 {: .no_toc .text-delta }
 1. A virtual machine or physical machine with below configuration.
+    
     <details>
       <summary>Machine Configuration</summary>
   
-      #### Configuration
-      {: .no_toc .text-delta }
+      **Configuration**
       - Windows Server 2016/2019 or Windows 7/8.1/10
       - 4 vCPUs
       - 8 GB RAM
       - Minimum 100 GB disk space in OS Partition
     </details>
+
 2. One server should be dedicated per location if you are trying to use multiple location execution. 
 3. As a control center, a separate server needs to be provisioned where it works for sending test results to Dynatrace.
 4. As a failover mechanism, you can have multiple synthetic control center servers with the configuration as specified below.
+    
     <details>
       <summary>Control Center Configuration</summary>
   
-      #### Configuration
-      {: .no_toc .text-delta }
+      **Configuration**
       - Windows Server 2016/2019 or Windows 7/8.1/10
       - 8 vCPUs
       - 16 GB RAM
@@ -120,8 +122,12 @@ The above flow diagram gives you the overall working of Single URL Plugin v2.0. 
     ![](../../assets/images/sup/Synthetic_Controller.png)
 7. Finally, stored screenshots and the data that is sent to Dynatrace can be viewed in the web app and Dynatrace portal respectively.
 
+---
+
 ## Dynatrace Capabilities
 Once data is sent to Dynatarce, you can do multiple things with that like, 
 - Creating dashboards
 - This plugin will inject more metrics data than it shows in the UI. You can always use those metrics to plot in the dashboard or use it for your reporting purposes.
 - Setting up alerts (custom events for alerting)
+
+---
