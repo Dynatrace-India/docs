@@ -72,7 +72,7 @@ In this, we discuss how the browser paints all the contents that are collected a
 
 Happy learning and feel free to ping me if you have any doubts in here or even on LinkedIn. 
 
-This is published in [LinkedIn](https://www.linkedin.com/pulse/internet-communication-how-browsers-render-webpages-vishruth-harithsa), [Dev.to](https://dev.to/theharithsa/internet-communication-how-browsers-render-webpages-5go1), Medium, [Transform Docs](https:/dt-transform.com/docs//blog/internet_communication/rendering_webpages), Dynatrace Community
+This is published in [LinkedIn](https://www.linkedin.com/pulse/internet-communication-how-browsers-render-webpages-vishruth-harithsa), [Dev Community](https://dev.to/theharithsa/internet-communication-how-browsers-render-webpages-5go1), [Medium](https://medium.thetechnologist.in/4563786653e4), [Transform Docs](https://dt-transform.com/docs//blog/internet_communication/rendering_webpages)
 
 ---
 
