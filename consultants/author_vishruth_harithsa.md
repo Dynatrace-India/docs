@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Single URL Plugin
+title: Vishruth Harithsa
 nav_order: 1
 parent: Authors
 permalink: /authors/vishruth_harithsa
