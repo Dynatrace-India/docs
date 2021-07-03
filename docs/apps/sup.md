@@ -104,7 +104,9 @@ Single URL Plugin uses different technologies to get things done. Below are the 
 ---
 
 ## How this works?
+
 ![](../../assets/images/sup/SUP_Flow.png)
+
 The above flow diagram gives you the overall working of Single URL Plugin v2.0. It works in 7 steps to complete its execution with all other failover runs are taken care of. 
 
 ### Steps
@@ -115,11 +117,15 @@ The above flow diagram gives you the overall working of Single URL Plugin v2.0. 
     - Delete URLs from execution
 2. In the second step, the synthetic controller will poll the DB from time to time to check the URLs and their modification. It will take URL, Scheduled time, Steps for execution, and any other properties that are required and sent to their respective VMs for execution.
 3. When URLs are sent to their respective VMs in a different location for execution, the Plugin controller will help the execution which uses Chrome for the execution. Please take a look at the flow on how VM executes URLs below.
+    
     ![](../../assets/images/sup/Execution.png)
+
 4. In the 4th step, as you can see the above diagram, credentials are fetched from the Dynatrace credential vault via API.
 5. Execution data ios sent to Synthetic Controller. Depending on the scenario, screenshots are directly stored in DB, or sometimes it is sent to the synthetic controller.
 6. In this step, as below flow diagram explains how synthetic controllers send data to Dynatrace. It uses an identification mechanism for each data that is received by the controller from different VMs. It validates with the help of a data controller and then chooses to send data to Dynatrace via external synthetic API and events API.
+    
     ![](../../assets/images/sup/Synthetic_Controller.png)
+
 7. Finally, stored screenshots and the data that is sent to Dynatrace can be viewed in the web app and Dynatrace portal respectively.
 
 ---
