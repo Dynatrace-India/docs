@@ -22,6 +22,7 @@ jtd.addEvent(toggleDarkMode, 'click', function(){
 </script>
 
 # Authors
+{: .no_toc }
 Here you will find the information about the authors of the site who contributed to pubish articles and wrote the documentations to help the site grow. 
 This is under improvement all the time and in this page you can find the list of authors and little bit of inofrmation about them.
 

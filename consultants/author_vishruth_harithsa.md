@@ -24,3 +24,4 @@ jtd.addEvent(toggleDarkMode, 'click', function(){
 # Vishruth Harithsa
 ## Articles Contributed
 1. [How Browsers Render Webpages?](https://dt-transform.com/docs/blog/internet_communication/rendering_webpages)
+2. [How Browsers Sends HTTP Requests?](https://dt-transform.com/docs/blog/internet_communication/http_requests)

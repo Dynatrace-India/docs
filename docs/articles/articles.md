@@ -23,4 +23,4 @@ jtd.addEvent(toggleDarkMode, 'click', function(){
 </script>
 
 # Blogs
-In here you can find some of the articles that are writtin by our team members which are also published in other sites as well. 
+In here you can find some of the articles that are written by our team members which are also published in other sites as well. 

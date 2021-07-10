@@ -1,9 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\docs",
-    "\\docs\\apps"
+    "\\consultants",
+    "\\docs\\apps",
+    "\\docs\\articles"
   ],
-  "SelectedNode": "\\docs\\apps\\sup.md",
+  "SelectedNode": "\\consultants\\author_vishruth_harithsa.md",
   "PreviewInSolutionExplorer": false
 }
